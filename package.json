@@ -4,13 +4,12 @@
   "description": "ReactJS front-end for URL alias",
   "main": "index.js",
   "scripts": {
+    "develop": "webpack-dev-server --content-base public/ --inline --hot --port 8000 --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ruchira Jayasekara <ruchira088@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
